@@ -10,12 +10,17 @@ function App() {
   //let counter = 15;
 
   const addValue = () => {
-    counter = counter + 1;
-   if(counter > 20){
-    alert("value can not be more than 20")
-   } else {
-     setCounter(counter);
-   }
+
+   setCounter(counter => counter + 1);
+   setCounter(counter => counter + 1);
+   setCounter(counter => counter + 1);
+   setCounter(counter => counter + 1);
+  
+  //  if(counter > 20){
+  //   alert("value can not be more than 20")
+  //  } else {
+  //    setCounter(counter);
+  //  }
     //console.log("Value added, ", Math.random());
   }
 
