@@ -1,1 +1,1 @@
-Learning repository of React.
+Learning repository of React with projects.
